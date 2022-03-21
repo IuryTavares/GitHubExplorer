@@ -1,7 +1,8 @@
-import React from "react";
+/* eslint-disable react/function-component-definition */
+import React from 'react';
 
-const Dashboard: React.FC = () => {
-  return <h1>Dashboard</h1>
-}
+import { Title } from './styles';
+
+const Dashboard: React.FC = () => <Title>Explore repositórios no GitHub</Title>;
 
 export default Dashboard;
