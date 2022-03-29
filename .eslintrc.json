@@ -23,7 +23,7 @@
       "react-hooks"
   ],
   "rules": {
-    "react-hooks/rules-of-hooks": "off",
+    "react-hooks/rules-of-hooks": "warn",
     "react-hooks/exhaustive-deps": "off",
     "react/jsx-filename-extension": [1, { "extensions": [".tsx"] }],
     "import/prefer-default-export": "off",
